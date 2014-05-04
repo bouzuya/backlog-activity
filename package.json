@@ -1,0 +1,38 @@
+{
+  "name": "backlog-activity",
+  "version": "0.0.0",
+  "description": "backlog activity.",
+  "main": "index.js",
+  "bin": {
+    "backlog-activity": "./bin/backlog-activity"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "backlog-api": "1.0.2",
+    "cheerio": "0.15.0",
+    "moment": "2.6.0",
+    "phantom": "0.6.1",
+    "phantomjs": "1.9.7-5",
+    "q": "1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/backlog-activity.git"
+  },
+  "keywords": [
+    "nulab",
+    "backlog"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "email": "bouzuya@gmail.com",
+    "url": "http://bouzuya.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/backlog-activity/issues"
+  },
+  "homepage": "https://github.com/bouzuya/backlog-activity"
+}
