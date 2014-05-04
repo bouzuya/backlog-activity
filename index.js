@@ -1,3 +1,2 @@
-var cli = require('./lib/');
-cli().run();
+module.exports = require('./lib/');
 
